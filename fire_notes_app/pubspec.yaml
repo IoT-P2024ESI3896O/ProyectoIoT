@@ -1,0 +1,51 @@
+name: kitchenKeeper
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  flutter_expandable_fab: ^2.0.0
+  image_picker: ^1.1.0
+  # state management
+  provider: ^6.1.2
+  flutter_bloc: ^8.1.5
+  equatable: ^2.0.5
+  # firebase and google
+  firebase_auth: ^4.19.0
+  firebase_core: ^2.28.0
+  google_sign_in: ^6.2.1
+  cloud_firestore: ^4.16.1
+  firebase_ui_firestore: ^1.6.2
+  flutter_local_notifications: ^17.1.0
+  camera: ^0.10.5+9
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  change_app_package_name: ^1.1.0
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "ic_launcher"
+  image_path: assets/icons/logojust.png
+  min_sdk_android: 21
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icons/app_icon.png
+    - assets/icons/logo.png
+    - assets/icons/logoname.png
+    - assets/icons/logojust.png
+    - assets/icons/fondoComponente.png
+    - assets/icons/mama.png
+    - assets/icons/gdl.png
+    
+  
